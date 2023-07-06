@@ -15,6 +15,9 @@ html {
 }
 
 @media screen and (min-width: 375px) {
+  .info-section {
+    background-image: "./";
+  }
   .fluidsConatiner {
     width: 90%;
   }
@@ -25,10 +28,6 @@ html {
 
   .navbar {
     height: 44px;
-
-    /* margin-top: 44px; */
-
-    /* width: 100wh; */
     display: flex;
     padding: 0 24px;
     justify-content: space-between;
@@ -50,6 +49,9 @@ html {
   }
 
   .main-info {
+    background-image: url(./images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
     background-color: #1c1a19;
     padding: 92px 24px;
     height: 100vh;
@@ -87,6 +89,9 @@ html {
     gap: 16px;
     font-size: 24px;
     padding: 16px;
+  }
+  .social-icon li {
+    list-style: none;
   }
 
   .social-icon i {

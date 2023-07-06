@@ -24,15 +24,13 @@
 
 # 📖 [Chiedozie's Portfolio Project] <a name="about-project"></a>
 
-> This is my Portfolio Website for Microverse Project. It contains my work as a developer and built to be responsive on every device.
-
-**[Chiedozie's Portfolio Project]** is a website that displays my details works done both personal and collaborative and also responsive to all mobile device.
+**[Chiedozie's Portfolio Project]** is my Portfolio Website for Microverse Project. It contains my work as a developer both personal and collaborative and built to be responsive on every device.
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 
 ### Tech Stack <a name="Front end"></a>
 
-> This is a mobile browser website.
+This is a mobile browser website.
 
 <details>
   <summary>Client</summary>
