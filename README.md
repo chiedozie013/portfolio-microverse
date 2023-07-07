@@ -68,6 +68,10 @@ Clone this repository to your desired folder:
   git clone https://github.com/chiedozie013/portfolio-microverse.git
 ```
 
+### Usage
+
+To run this project use the live server extention in your editor
+
 ### Install
 
 Install this project with:
