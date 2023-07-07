@@ -15,14 +15,6 @@ html {
 }
 
 @media screen and (min-width: 375px) {
-  .info-section {
-    background-image: "./";
-  }
-
-  .fluidsConatiner {
-    width: 90%;
-  }
-
   .navContainer {
     background-color: #3c3a39;
   }
@@ -173,7 +165,7 @@ html {
 
 .workDetails button {
   background-color: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   font-family: "inter", serif;
   font-weight: 700;
   font-size: 17px;
@@ -209,7 +201,7 @@ html {
   font-size: 32px;
   line-height: 44px;
   margin: 0 12px;
-  color: #ffffff;
+  color: #fff;
   padding-top: 80px;
 }
 
@@ -219,7 +211,7 @@ html {
   font-size: 16px;
   line-height: 24px;
   margin: 0 12px;
-  color: #ffffff;
+  color: #fff;
   position: relative;
   z-index: 2;
   margin-top: 12px;
@@ -240,22 +232,20 @@ html {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
-  /* margin-left: 12px; */
+  color: #fff;
   padding: 10px 12px;
   background-color: #ffffff4a;
 }
 
 .workCard button {
   background-color: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   font-family: "inter", serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 3%;
   align-items: center;
-  padding: 12px;
   margin-top: 12px;
   height: 48px;
   width: 327px;
@@ -266,8 +256,27 @@ html {
   background-color: #1c1a19;
   margin-top: 120px;
 }
+
 .aboutDetails {
-  margin: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.aboutDetails::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/Frame.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  opacity: 0.9;
+  transform: rotate();
 }
 
 .aboutDetails h1 {
@@ -275,4 +284,85 @@ html {
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding-top: 120px;
+  margin: 0 24px;
+}
+
+.aboutDetails p {
+  font-family: "inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 0 24px;
+}
+
+.aboutDetails button {
+  font-family: "inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  align-items: center;
+  color: #fff;
+  padding: 10px 12px 12px;
+  background-color: #ff6b00;
+  text-decoration: none;
+  width: 156px;
+  margin: 0 24px;
+}
+
+.skills {
+  margin: 0 24px;
+  border-top: 1px solid #fff;
+  margin-top: 16px;
+}
+
+.top-skills {
+  padding-top: 100px;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  justify-content: center;
+  place-items: center;
+  margin-top: 32px;
+}
+
+.skillsContainer h3 {
+  font-family: "InaiMathi", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.skillsContainer ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 8px;
+  justify-content: center;
+  place-items: center;
+}
+
+.skillsContainer ul li {
+  font-family: "inter", serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42.67px;
+  color: #fff;
+  list-style: none;
+}
+
+.icon {
+  color: #ff6b00;
+  padding-right: 10px;
+}
+
+.stack-skils {
+  padding-bottom: 80px;
 }
