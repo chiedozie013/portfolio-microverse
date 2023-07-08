@@ -365,6 +365,84 @@ html {
   .stack-skils {
     padding-bottom: 80px;
   }
+  .contactInfo {
+    padding: 0 24px;
+    position: relative;
+  }
+
+  .formHeader h2 {
+    font-family: "inter", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+    margin-top: 100px;
+  }
+
+  .contactForm input {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 24px;
+    border: none;
+    border-bottom: 1px solid #a5a5a5;
+  }
+
+  .input::placeholder {
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #979493;
+    padding-left: 12px;
+  }
+
+  #message {
+    width: 327px;
+    height: 114px;
+    background-color: #fbf8f7;
+  }
+
+  #message::placeholder {
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3c3a39;
+    padding-left: 12px;
+  }
+
+  .contactForm button {
+    font-family: "inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    align-items: center;
+    width: 131px;
+    height: 48px;
+    padding: 12px;
+    background-color: #ff6b00;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 145px;
+    border: none;
+  }
+
+  .footer-icon {
+    margin-top: 130px;
+    justify-content: center;
+    border-top: 1px solid #dfe1e6;
+  }
+  .footer-icon i {
+    color: #505f79;
+    size: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .btn:hover {
@@ -381,4 +459,47 @@ html {
 .btn:active {
   background-color: #e05304;
   color: #f4f1f0;
+}
+
+@media screen and (min-width: 768px) {
+  .fas.fa-bars {
+    display: none;
+  }
+  .navDesktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .navDesktop ul {
+    display: flex;
+    gap: 8px;
+  }
+  .navDesktop ul li {
+    list-style: none;
+    font-family: "inter", serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 12px;
+  }
+
+  .navbar {
+    padding: 0 142px;
+  }
+  .far.fa-envelope {
+    color: #fff;
+    padding: 8px;
+  }
+
+  .info-section {
+    display: flex;
+  }
+  .main-info {
+    width: 556px;
+    height: 739px;
+  }
+  
 }
