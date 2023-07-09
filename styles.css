@@ -565,6 +565,13 @@ html {
     padding: 10px 12px;
   }
 
+  .navDesktop ul li:hover,
+  .logo a:hover,
+  .social-icon i:hover,
+  .social-icon2 i:hover {
+    color: #ff6b00;
+  }
+
   .far.fa-envelope {
     color: #fff;
     padding: 8px;
@@ -614,7 +621,7 @@ html {
 
   .social-icon {
     position: absolute;
-    right: 92%;
+    right: 94%;
     flex-direction: column;
     margin-left: 0;
   }
@@ -676,21 +683,21 @@ html {
 
   .workCard1 {
     height: 435px;
-    width: 369px;
+    width: 350px;
     border: 2px solid #091e42;
   }
 
   .workCard1 button {
     position: absolute;
     bottom: 0;
-    width: 366px;
+    width: 348px;
   }
 
   .workCard2,
   .workCard3,
   .workCard4 {
     height: 435px;
-    width: 369px;
+    width: 350px;
   }
 
   .about-top::before {
