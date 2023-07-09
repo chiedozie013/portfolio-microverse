@@ -26,7 +26,9 @@ html {
     justify-content: space-between;
     align-items: center;
   }
-
+  .navDesktop {
+    display: none;
+  }
   .my-logo {
     text-decoration: none;
     font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
@@ -40,17 +42,16 @@ html {
   .fas.fa-bars {
     color: #fff;
   }
-
-  .main-info {
-    background-color: #1c1a19;
-    padding: 92px 24px;
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
     height: 100vh;
-    display: block;
-    gap: 12px;
+    background-color: #1c1a19;
     position: relative;
   }
 
-  .main-info::before {
+  .info-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -62,7 +63,10 @@ html {
     background-position: right bottom;
     opacity: 0.7;
   }
-
+  .main-info {
+    padding: 0 24px;
+    gap: 12px;
+  }
   .main-info h1 {
     font-family: "Crete Round", sans-serif;
     font-weight: 400;
@@ -88,18 +92,21 @@ html {
     color: #fff;
   }
 
-  .social-icon {
+  .social-icon,
+  .social-icon2 {
     display: flex;
     gap: 16px;
     font-size: 24px;
     padding: 16px;
   }
 
-  .social-icon li {
+  .social-icon li,
+  .social-icon2 li {
     list-style: none;
   }
 
-  .social-icon i {
+  .social-icon i,
+  .social-icon2 i {
     color: #fff;
   }
 
@@ -117,8 +124,12 @@ html {
     color: #1c1a19;
     border-bottom: 1px solid #1c1a19;
   }
-
-  .works-section img {
+  .works {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .works img {
     margin-top: 80px;
     margin-left: 24px;
     margin-right: 24px;
@@ -127,10 +138,12 @@ html {
 
   .workDetails {
     margin: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
-  .workDetails h2 {
-    margin-top: 24px;
+  .workDetails h3 {
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
     font-size: 32px;
@@ -143,7 +156,6 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 12px;
   }
 
   .workDetails ul {
@@ -172,14 +184,52 @@ html {
     letter-spacing: 3%;
     align-items: center;
     padding: 12px;
-    margin-top: 12px;
+
     height: 48px;
     width: 124px;
     border: none;
   }
-
-  .workCard {
+  .works-main {
     margin: 0 24px;
+  }
+  .workCard1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 327px;
+    height: 386px;
+    background-image: url("./images/ProjectImg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin-top: 24px;
+    /* margin-bottom: 24px; */
+  }
+  .workCard2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 327px;
+    height: 386px;
+    background-image: url("./images/ProjectImg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin-top: 24px;
+  }
+  .workCard3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 327px;
+    height: 386px;
+    background-image: url("./images/ProjectImg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    margin-top: 24px;
+  }
+  .workCard4 {
     position: relative;
     top: 0;
     left: 0;
@@ -192,7 +242,11 @@ html {
     margin-top: 24px;
   }
 
-  .workCard h2 {
+  .position {
+    position: absolute;
+    bottom: 16px;
+  }
+  .card-title {
     position: relative;
     z-index: 2;
     font-family: "Crete Round", sans-serif;
@@ -201,10 +255,10 @@ html {
     line-height: 44px;
     margin: 0 12px;
     color: #fff;
-    padding-top: 80px;
+    padding-bottom: 20px;
   }
 
-  .workCard p {
+  .card-details {
     font-family: "inter", serif;
     font-weight: 400;
     font-size: 16px;
@@ -216,7 +270,7 @@ html {
     margin-top: 12px;
   }
 
-  .workCard ul {
+  .card-lang {
     display: flex;
     gap: 12px;
     position: relative;
@@ -225,7 +279,7 @@ html {
     margin-left: 12px;
   }
 
-  .workCard ul li {
+  .card-lang li {
     list-style: none;
     font-family: "inter", serif;
     font-weight: 500;
@@ -236,7 +290,7 @@ html {
     background-color: #ffffff4a;
   }
 
-  .workCard button {
+  .workCard1 button {
     background-color: #ff6b00;
     color: #fff;
     font-family: "inter", serif;
@@ -249,6 +303,7 @@ html {
     height: 48px;
     width: 327px;
     border: none;
+    margin-top: 340px;
   }
 
   .about-section {
@@ -263,8 +318,10 @@ html {
     padding-bottom: 200px;
     position: relative;
   }
-
-  .aboutDetails::before {
+  .about-top {
+    position: relative;
+  }
+  .about-top::before {
     content: "";
     position: absolute;
     top: 0;
@@ -317,19 +374,18 @@ html {
     margin: 0 24px;
     border-top: 1px solid #fff;
     margin-top: 16px;
-  }
-
-  .top-skills {
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 80px;
   }
 
   .skillsContainer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 24px;
-    justify-content: center;
+    grid-gap: 12px;
     place-items: center;
-    margin-top: 32px;
+    margin-top: 30px;
   }
 
   .skillsContainer h3 {
@@ -362,12 +418,8 @@ html {
     padding-right: 10px;
   }
 
-  .stack-skils {
-    padding-bottom: 80px;
-  }
   .contactInfo {
     padding: 0 24px;
-    position: relative;
   }
 
   .formHeader h2 {
@@ -380,10 +432,17 @@ html {
     margin-top: 100px;
   }
 
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   .contactForm input {
-    width: 327px;
+    width: 100%;
     height: 48px;
-    margin-bottom: 24px;
     border: none;
     border-bottom: 1px solid #a5a5a5;
   }
@@ -398,7 +457,7 @@ html {
   }
 
   #message {
-    width: 327px;
+    width: 100%;
     height: 114px;
     background-color: #fbf8f7;
   }
@@ -425,10 +484,6 @@ html {
     padding: 12px;
     background-color: #ff6b00;
     color: #fff;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 145px;
     border: none;
   }
 
@@ -462,6 +517,12 @@ html {
 }
 
 @media screen and (min-width: 768px) {
+  .navbar {
+    height: 72px;
+  }
+  .my-logo {
+    font-size: 20px;
+  }
   .fas.fa-bars {
     display: none;
   }
@@ -494,12 +555,158 @@ html {
     padding: 8px;
   }
 
-  .info-section {
-    display: flex;
-  }
   .main-info {
     width: 556px;
-    height: 739px;
+    position: relative;
+    margin-left: 118px;
   }
-  
+
+  .info-section {
+    background-color: #1c1a19;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+    padding-top: 0;
+    position: relative;
+  }
+
+  .info-section::before {
+    background-image: url(./images/Illustration-header.png);
+    opacity: 0.9;
+  }
+  .main-info h1 {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+  }
+  .main-info h3 {
+    font-family: "inter", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .main-info p {
+    font-family: "inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .social-icon {
+    position: absolute;
+    right: 92%;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: row;
+    margin: 0 118px;
+  }
+  .works img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .workDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .workDetails h3 {
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 67px;
+  }
+
+  .workDetails p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .works-main {
+    margin: 0 142px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .workCard1 {
+    height: 435px;
+    width: 369px;
+    border: 2px solid #091e42;
+  }
+
+  .workCard1 button {
+    position: absolute;
+    bottom: 0;
+    width: 366px;
+  }
+  .workCard2,
+  .workCard3,
+  .workCard4 {
+    height: 435px;
+    width: 369px;
+  }
+
+  .about-top::before {
+    background-image: url(./images/About\ Frame.png);
+    background-position: right center;
+  }
+  .aboutDetails {
+    width: 766px;
+    padding-left: 118px;
+  }
+
+  .aboutDetails::before {
+    background-image: none;
+  }
+  .aboutDetails h2 {
+    line-height: 81.5px;
+  }
+  .aboutDetails p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 142px;
+  }
+
+  .skillsContainer {
+    margin-top: 120px;
+    display: grid;
+    justify-content: end;
+    place-items: start;
+  }
+
+  .skillsContainer ul {
+    place-items: start;
+  }
+
+  .stack-skills {
+    margin-top: 40px;
+  }
+  .contactInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0 118px;
+  }
+  .formHeader h2 {
+    font-size: 40px;
+    line-height: 52px;
+    width: 455px;
+    text-align: start;
+  }
+  .contactForm {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .social-icon2 {
+    flex-direction: row;
+    left: 50%;
+  }
 }
