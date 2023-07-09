@@ -621,11 +621,13 @@ html {
     flex-direction: column;
     margin-left: 0;
   }
+
   .works-section {
     display: flex;
     flex-direction: column;
     margin: 0 118px;
   }
+
   .works-section h2 {
     border: none;
     color: #091e42;
@@ -638,6 +640,7 @@ html {
     margin-left: 340px;
     margin-top: -77px;
   }
+
   .works {
     display: flex;
     flex-direction: row;
