@@ -26,9 +26,11 @@ html {
     justify-content: space-between;
     align-items: center;
   }
+
   .navDesktop {
     display: none;
   }
+
   .my-logo {
     text-decoration: none;
     font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
@@ -42,6 +44,7 @@ html {
   .fas.fa-bars {
     color: #fff;
   }
+
   .info-section {
     display: flex;
     flex-direction: column;
@@ -63,10 +66,12 @@ html {
     background-position: right bottom;
     opacity: 0.7;
   }
+
   .main-info {
     padding: 0 24px;
     gap: 12px;
   }
+
   .main-info h1 {
     font-family: "Crete Round", sans-serif;
     font-weight: 400;
@@ -124,11 +129,13 @@ html {
     color: #1c1a19;
     border-bottom: 1px solid #1c1a19;
   }
+
   .works {
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
+
   .works img {
     margin-top: 80px;
     margin-left: 24px;
@@ -163,7 +170,7 @@ html {
     gap: 12px;
   }
 
-  .workDetails ul li {
+  .work-lang li {
     list-style: none;
     font-family: "inter", serif;
     font-weight: 500;
@@ -184,14 +191,15 @@ html {
     letter-spacing: 3%;
     align-items: center;
     padding: 12px;
-
     height: 48px;
     width: 124px;
     border: none;
   }
+
   .works-main {
     margin: 0 24px;
   }
+
   .workCard1 {
     position: relative;
     top: 0;
@@ -203,8 +211,10 @@ html {
     background-size: cover;
     z-index: 1;
     margin-top: 24px;
+
     /* margin-bottom: 24px; */
   }
+
   .workCard2 {
     position: relative;
     top: 0;
@@ -217,6 +227,7 @@ html {
     z-index: 1;
     margin-top: 24px;
   }
+
   .workCard3 {
     position: relative;
     top: 0;
@@ -229,6 +240,7 @@ html {
     z-index: 1;
     margin-top: 24px;
   }
+
   .workCard4 {
     position: relative;
     top: 0;
@@ -246,6 +258,7 @@ html {
     position: absolute;
     bottom: 16px;
   }
+
   .card-title {
     position: relative;
     z-index: 2;
@@ -299,11 +312,10 @@ html {
     line-height: 24px;
     letter-spacing: 3%;
     align-items: center;
-    margin-top: 12px;
     height: 48px;
     width: 327px;
     border: none;
-    margin-top: 340px;
+    margin-top: 3520px;
   }
 
   .about-section {
@@ -318,9 +330,11 @@ html {
     padding-bottom: 200px;
     position: relative;
   }
+
   .about-top {
     position: relative;
   }
+
   .about-top::before {
     content: "";
     position: absolute;
@@ -440,6 +454,7 @@ html {
     justify-content: center;
     width: 100%;
   }
+
   .contactForm input {
     width: 100%;
     height: 48px;
@@ -492,6 +507,7 @@ html {
     justify-content: center;
     border-top: 1px solid #dfe1e6;
   }
+
   .footer-icon i {
     color: #505f79;
     size: 24px;
@@ -519,13 +535,17 @@ html {
 @media screen and (min-width: 768px) {
   .navbar {
     height: 72px;
+    padding: 0 142px;
   }
+
   .my-logo {
     font-size: 20px;
   }
+
   .fas.fa-bars {
     display: none;
   }
+
   .navDesktop {
     display: flex;
     justify-content: center;
@@ -537,6 +557,7 @@ html {
     display: flex;
     gap: 8px;
   }
+
   .navDesktop ul li {
     list-style: none;
     font-family: "inter", serif;
@@ -547,9 +568,6 @@ html {
     padding: 10px 12px;
   }
 
-  .navbar {
-    padding: 0 142px;
-  }
   .far.fa-envelope {
     color: #fff;
     padding: 8px;
@@ -575,24 +593,28 @@ html {
     background-image: url(./images/Illustration-header.png);
     opacity: 0.9;
   }
+
   .main-info h1 {
     font-family: "Crete Round", sans-serif;
     font-weight: 400;
     font-size: 72px;
     line-height: 81.5px;
   }
+
   .main-info h3 {
     font-family: "inter", serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
   }
+
   .main-info p {
     font-family: "inter", serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
   }
+
   .social-icon {
     position: absolute;
     right: 92%;
@@ -605,6 +627,7 @@ html {
     flex-direction: row;
     margin: 0 118px;
   }
+
   .works img {
     width: 684px;
     height: 448px;
@@ -615,6 +638,7 @@ html {
     flex-direction: column;
     gap: 24px;
   }
+
   .workDetails h3 {
     font-size: 40px;
     line-height: 52px;
@@ -625,6 +649,7 @@ html {
     font-size: 20px;
     line-height: 28px;
   }
+
   .works-main {
     margin: 0 142px;
     display: grid;
@@ -642,6 +667,7 @@ html {
     bottom: 0;
     width: 366px;
   }
+
   .workCard2,
   .workCard3,
   .workCard4 {
@@ -653,6 +679,7 @@ html {
     background-image: url(./images/About\ Frame.png);
     background-position: right center;
   }
+
   .aboutDetails {
     width: 766px;
     padding-left: 118px;
@@ -661,13 +688,16 @@ html {
   .aboutDetails::before {
     background-image: none;
   }
+
   .aboutDetails h2 {
     line-height: 81.5px;
   }
+
   .aboutDetails p {
     font-size: 20px;
     line-height: 32px;
   }
+
   .skills {
     display: flex;
     flex-direction: row;
@@ -689,22 +719,26 @@ html {
   .stack-skills {
     margin-top: 40px;
   }
+
   .contactInfo {
     display: flex;
     flex-direction: row;
     gap: 24px;
     margin: 0 118px;
   }
+
   .formHeader h2 {
     font-size: 40px;
     line-height: 52px;
     width: 455px;
     text-align: start;
   }
+
   .contactForm {
     margin-top: 100px;
     width: 100%;
   }
+
   .social-icon2 {
     flex-direction: row;
     left: 50%;
