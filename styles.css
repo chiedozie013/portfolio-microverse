@@ -621,7 +621,23 @@ html {
     flex-direction: column;
     margin-left: 0;
   }
+  .works-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 118px;
+  }
+  .works-section h2 {
+    border: none;
+    color: #091e42;
+    width: 315px;
+  }
 
+  .works-vector {
+    border-bottom: 1px solid #212121;
+    width: 68%;
+    margin-left: 340px;
+    margin-top: -77px;
+  }
   .works {
     display: flex;
     flex-direction: row;
@@ -737,6 +753,7 @@ html {
   .contactForm {
     margin-top: 100px;
     width: 100%;
+    align-items: start;
   }
 
   .social-icon2 {
