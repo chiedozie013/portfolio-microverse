@@ -217,7 +217,7 @@ html {
   }
 
   .workCard ul {
-    display: flex;
+    /* display: flex; */
     gap: 12px;
     position: relative;
     z-index: 2;
@@ -234,6 +234,8 @@ html {
     color: #fff;
     padding: 10px 12px;
     background-color: #ffffff4a;
+    float: left;
+    margin-right: 1em;
   }
 
   .workCard button {
