@@ -1,4 +1,5 @@
-*,
+@import url("https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700&famliy=Crete+Round&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap");
+s *,
 *::before,
 *::after {
   margin: 0;
@@ -197,6 +198,9 @@ html {
 
   .works-main {
     margin: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .workCard1 {
@@ -646,15 +650,22 @@ html {
   }
 
   .works {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     gap: 24;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0 118px;
   }
 
   .works img {
     width: 684px;
     height: 448px;
+  }
+
+  .works div {
+    width: 448px;
   }
 
   .workDetails {
@@ -677,8 +688,9 @@ html {
 
   .works-main {
     margin: 0 142px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .workCard1 {
@@ -726,6 +738,7 @@ html {
   .skills {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 142px;
   }
@@ -748,20 +761,22 @@ html {
   .contactInfo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
     margin: 0 118px;
   }
-
+  .formHeader {
+    width: 45%;
+  }
   .formHeader h2 {
     font-size: 40px;
     line-height: 52px;
-    width: 455px;
     text-align: start;
   }
 
   .contactForm {
     margin-top: 100px;
-    width: 100%;
+    width: 50%;
     align-items: start;
   }
 
