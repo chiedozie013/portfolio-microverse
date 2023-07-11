@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
@@ -365,6 +366,85 @@ html {
   .stack-skils {
     padding-bottom: 80px;
   }
+
+  #contact-form {
+    height: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-paragraph {
+    font-family: "inter", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #172b4d;
+    font-family: "inter", serif;
+    width: 62%;
+    height: 262px;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    display: flex;
+    width: 84%;
+    height: 44px;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  #message {
+    display: flex;
+    width: 84%;
+    height: 114px; 
+    background-color: #fbf8f7;
+    border: none;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .formbutton {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #f4f5f7;
+    background-color: #ff6b00;
+    border: none;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    margin-top: -4.5rem;
+  }
+
+  .footericon {
+    border-top: 1px solid #dfe1e6;
+  }
+
+  .footericon li{
+    padding-top: 1rem;
+  }
+
+  .footericon li:nth-child(1) {
+    margin-left: 28%;
+  }
+
+  .footericon i{
+    color: #505f79;
+    padding-bottom: 2rem;
+  }
 }
 
 .btn:hover {
@@ -382,3 +462,4 @@ html {
   background-color: #e05304;
   color: #f4f1f0;
 }
+
