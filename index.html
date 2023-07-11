@@ -223,35 +223,47 @@
           </ul>
         </div>
       </section>
-      <section>
-        <p class="contact-paragraph">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </p>
+      <section class="contactInfo">
+        <div class="formHeader">
+          <h2>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+        </div>
         <form
-          id="contact-form"
+          class="contactForm"
           action="https://formspree.io/f/xknlnqre"
-          method="post"
+          method="POST"
         >
           <input
             type="text"
             name="name"
-            maxlength="30"
+            id="name"
             placeholder="Full name"
+            maxlength="30"
+            class="input"
+            required
           />
-          <input type="email" name="email" placeholder="Email address" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email address"
+            class="input"
+            required
+          />
           <textarea
             name="message"
             id="message"
-            type="text"
+            placeholder="Write me something"
             maxlength="500"
-            placeholder="Write me something..."
+            required
           ></textarea>
-          <button class="formbutton" type="submit">Get in touch</button>
+          <button type="submit" class="btn">Get in touch</button>
         </form>
       </section>
-      <footer class="footericon">
-        <ul class="social-icon">
+      <footer>
+        <ul class="social-icon footer-icon">
           <li>
             <a href="#"><i class="fab fa-github"></i></a>
           </li>
