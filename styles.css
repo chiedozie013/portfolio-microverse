@@ -129,7 +129,7 @@ html {
     margin: 0 24px;
   }
 
-  .workDetails h2 {
+  .workDetails h3 {
     margin-top: 24px;
     font-weight: 400;
     font-family: "Crete Round", sans-serif;
@@ -403,6 +403,19 @@ html {
     line-height: 24px;
     color: #979493;
     padding-left: 12px;
+  }
+
+  .input:valid {
+    border: 2px solid green;
+  }
+
+  .input:invalid {
+    box-shadow: 0 0 2px 1px #ff0000;
+  }
+  .input:invalid {
+    box-shadow: none;
+    border-color: initial;
+    /* border-bottom: 1px solid #a5a5a5; */
   }
 
   #message {
