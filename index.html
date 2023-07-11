@@ -231,7 +231,11 @@
             like to chat please get in touch.
           </h2>
         </div>
-        <form class="contactForm" method="post">
+        <form
+          class="contactForm"
+          action="https://formspree.io/f/xknlnqre"
+          method="POST"
+        >
           <input
             type="text"
             name="name"
@@ -244,18 +248,19 @@
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Email address"
             class="input"
             required
           />
           <textarea
-            name="text"
+            name="message"
             id="message"
             placeholder="Write me something"
             maxlength="500"
             required
           ></textarea>
-          <button href="#" class="btn">Get in touch</button>
+          <button type="submit" class="btn">Get in touch</button>
         </form>
       </section>
       <footer>
