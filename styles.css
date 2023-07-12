@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700&famliy=Crete+Round&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap");
+
 s *,
 *::before,
 *::after {
@@ -219,6 +220,7 @@ html {
     z-index: 1;
     margin-top: 24px;
   }
+
   .workCard1 button {
     background-color: #ff6b00;
     color: #fff;
@@ -403,6 +405,7 @@ html {
     grid-template-columns: 1fr;
     grid-gap: 12px;
     place-items: center;
+
     /* margin-top: 30px; */
   }
 
@@ -527,6 +530,7 @@ html {
 .social-icon2 i:hover {
   color: #ff6b00;
 }
+
 .btn:hover {
   background-color: #fff5e1;
   color: #f55800;
@@ -774,9 +778,11 @@ html {
     gap: 24px;
     margin: 0 118px;
   }
+
   .formHeader {
     width: 45%;
   }
+
   .formHeader h2 {
     font-size: 40px;
     line-height: 52px;
