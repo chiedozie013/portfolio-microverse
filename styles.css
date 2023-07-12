@@ -50,7 +50,7 @@ html {
     display: flex;
     flex-direction: column;
     padding-top: 70px;
-    height: 100vh;
+    height: 90vh;
     background-color: #1c1a19;
     position: relative;
   }
@@ -71,6 +71,7 @@ html {
   .main-info {
     padding: 0 24px;
     gap: 12px;
+    margin-top: -50px;
   }
 
   .main-info h1 {
@@ -104,6 +105,7 @@ html {
     gap: 16px;
     font-size: 24px;
     padding: 16px;
+    margin-top: -10px;
   }
 
   .social-icon li,
@@ -141,6 +143,7 @@ html {
     margin-left: 24px;
     margin-right: 24px;
     height: 237px;
+    width: 327px;
   }
 
   .workDetails {
@@ -168,6 +171,7 @@ html {
   .work-lang {
     display: flex;
     gap: 12px;
+    margin-left: -38px;
   }
 
   .work-lang li {
@@ -207,13 +211,27 @@ html {
     position: relative;
     top: 0;
     left: 0;
-    width: 327px;
+    width: 320px;
     height: 386px;
     background-image: url("./images/ProjectImg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
     margin-top: 24px;
+  }
+  .workCard1 button {
+    background-color: #ff6b00;
+    color: #fff;
+    font-family: "inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    align-items: center;
+    height: 48px;
+    width: 320px;
+    border: none;
+    margin-top: 352px;
   }
 
   .workCard2 {
@@ -290,7 +308,7 @@ html {
     position: relative;
     z-index: 2;
     margin-top: 12px;
-    margin-left: 12px;
+    margin-left: -30px;
   }
 
   .card-lang li {
@@ -302,21 +320,6 @@ html {
     color: #fff;
     padding: 10px 12px;
     background-color: #ffffff4a;
-  }
-
-  .workCard1 button {
-    background-color: #ff6b00;
-    color: #fff;
-    font-family: "inter", serif;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 3%;
-    align-items: center;
-    height: 48px;
-    width: 327px;
-    border: none;
-    margin-top: 3520px;
   }
 
   .about-section {
@@ -388,10 +391,10 @@ html {
   .skills {
     margin: 0 24px;
     border-top: 1px solid #fff;
-    margin-top: 16px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 8px;
     padding-bottom: 80px;
   }
 
@@ -400,7 +403,7 @@ html {
     grid-template-columns: 1fr;
     grid-gap: 12px;
     place-items: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .skillsContainer h3 {
@@ -417,6 +420,7 @@ html {
     grid-gap: 8px;
     justify-content: center;
     place-items: center;
+    margin-top: -30px;
   }
 
   .skillsContainer ul li {
@@ -504,7 +508,7 @@ html {
   }
 
   .footer-icon {
-    margin-top: 130px;
+    margin-top: 80px;
     justify-content: center;
     border-top: 1px solid #dfe1e6;
   }
@@ -517,6 +521,12 @@ html {
   }
 }
 
+.navDesktop ul li:hover,
+.logo a:hover,
+.social-icon i:hover,
+.social-icon2 i:hover {
+  color: #ff6b00;
+}
 .btn:hover {
   background-color: #fff5e1;
   color: #f55800;
@@ -567,13 +577,6 @@ html {
     line-height: 20px;
     color: #fff;
     padding: 10px 12px;
-  }
-
-  .navDesktop ul li:hover,
-  .logo a:hover,
-  .social-icon i:hover,
-  .social-icon2 i:hover {
-    color: #ff6b00;
   }
 
   .far.fa-envelope {
@@ -697,13 +700,15 @@ html {
     height: 435px;
     width: 350px;
     border: 2px solid #091e42;
+    position: relative;
   }
 
-  .workCard1 button {
+  /* .workCard1 button {
     position: absolute;
     bottom: 0;
     width: 348px;
-  }
+    z-index: 2;
+  } */
 
   .workCard2,
   .workCard3,
@@ -756,6 +761,10 @@ html {
 
   .stack-skills {
     margin-top: 40px;
+  }
+
+  .move li:nth-child(1) {
+    margin-top: -40px;
   }
 
   .contactInfo {
