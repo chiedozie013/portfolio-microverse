@@ -208,9 +208,8 @@ html {
 
   .works-main {
     margin: 0 24px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   .workCard1 button,
@@ -675,8 +674,6 @@ html {
     gap: 12px;
     display: flex;
     flex-wrap: wrap;
-
-    /* justify-content: space-between; */
     margin: 0 118px;
   }
 
@@ -710,9 +707,8 @@ html {
 
   .works-main {
     margin: 0 142px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   .workCard1,
