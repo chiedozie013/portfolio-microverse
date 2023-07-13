@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:wght@400;500;600;700&famliy=Crete+Round&family=Montserrat&family=Open+Sans:wght@400;500;600;700&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap");
 
-s *,
+*,
 *::before,
 *::after {
   margin: 0;
@@ -51,7 +51,7 @@ html {
     display: flex;
     flex-direction: column;
     padding-top: 70px;
-    height: 90vh;
+    height: 100vh;
     background-color: #1c1a19;
     position: relative;
   }
@@ -72,7 +72,7 @@ html {
   .main-info {
     padding: 0 24px;
     gap: 12px;
-    margin-top: -50px;
+    margin-top: 5px;
   }
 
   .main-info h1 {
@@ -106,12 +106,15 @@ html {
     gap: 16px;
     font-size: 24px;
     padding: 16px;
-    margin-top: -10px;
   }
 
   .social-icon li,
   .social-icon2 li {
     list-style: none;
+  }
+
+  .social-icon {
+    margin-left: 9px;
   }
 
   .social-icon i,
@@ -160,6 +163,7 @@ html {
     font-size: 32px;
     line-height: 44px;
     color: #091e42;
+    margin-top: 24px;
   }
 
   .workDetails p {
@@ -167,13 +171,12 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-top: -40px;
+    margin-top: -10px;
   }
 
   .work-lang {
     display: flex;
     gap: 12px;
-    margin-left: -38px;
     margin-top: -10px;
   }
 
@@ -222,9 +225,10 @@ html {
     letter-spacing: 3%;
     align-items: center;
     height: 48px;
-    width: 320px;
+    width: 325px;
     border: none;
-    margin-top: 352px;
+    margin-top: 20px;
+    margin-left: 1px;
   }
 
   .workCard2 {
@@ -266,16 +270,20 @@ html {
     margin-top: 24px;
   }
 
-  .display-button {
-    display: none;
+  .hide-card {
+    margin-top: 50px;
   }
 
-  .position {
-    padding-top: 100px;
+  .third-card {
+    padding-top: 92px;
   }
 
-  .workCard3 > .position {
-    padding-top: 145px;
+  .move3 {
+    margin-top: -140px;
+  }
+
+  .move4 {
+    margin-top: -50px;
   }
 
   .card-title {
@@ -308,7 +316,7 @@ html {
     position: relative;
     z-index: 2;
     margin-top: 12px;
-    margin-left: -30px;
+    margin-left: 12px;
   }
 
   .card-lang li {
@@ -403,6 +411,11 @@ html {
     grid-template-columns: 1fr;
     grid-gap: 12px;
     place-items: center;
+    margin-top: 24px;
+  }
+
+  .top-skills {
+    margin-top: 96px;
   }
 
   .skillsContainer h3 {
@@ -419,7 +432,6 @@ html {
     grid-gap: 8px;
     justify-content: center;
     place-items: center;
-    margin-top: -30px;
   }
 
   .skillsContainer ul li {
@@ -602,7 +614,12 @@ html {
 
   .info-section::before {
     background-image: url(./images/Illustration-header.png);
+    background-size: 39%;
     opacity: 0.9;
+  }
+
+  .social-icon i {
+    font-size: 20px;
   }
 
   .main-info h1 {
@@ -649,15 +666,16 @@ html {
     border-bottom: 1px solid #212121;
     width: 68%;
     margin-left: 340px;
-    margin-top: -110px;
+    margin-top: -80px;
   }
 
   .works {
     flex-direction: row;
-    gap: 24;
+    gap: 12px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
+    /* justify-content: space-between; */
     margin: 0 118px;
   }
 
@@ -669,13 +687,13 @@ html {
 
   .works div {
     width: 448px;
+    margin-left: -5px;
   }
 
   .workDetails {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin: 0;
   }
 
   .workDetails h3 {
@@ -700,7 +718,7 @@ html {
   .workCard2,
   .workCard3 {
     height: 435px;
-    width: 350px;
+    width: 369px;
     border: 2px solid #091e42;
     position: relative;
   }
@@ -708,17 +726,26 @@ html {
   .position button {
     position: absolute;
     bottom: 0;
-    width: 348px;
+    width: 369px;
     z-index: 2;
+    margin-left: -1px;
   }
 
   .position {
-    padding-top: 170px;
+    padding-top: 120px;
     bottom: 16px;
   }
 
+  .move3 {
+    margin-top: -90px;
+  }
+
+  .move5 {
+    padding-top: 50px;
+  }
+
   .workCard3 > .position {
-    padding-top: 217px;
+    padding-top: 164px;
   }
 
   .position:hover > .hide-card {
@@ -736,10 +763,11 @@ html {
   .about-top::before {
     background-image: url(./images/About\ Frame.png);
     background-position: right center;
+    background-size: 40%;
   }
 
   .aboutDetails {
-    width: 766px;
+    width: 50%;
     padding-left: 118px;
   }
 
@@ -773,10 +801,6 @@ html {
 
   .skillsContainer ul {
     place-items: start;
-  }
-
-  .stack-skills {
-    margin-top: 40px;
   }
 
   .move li:nth-child(1) {
