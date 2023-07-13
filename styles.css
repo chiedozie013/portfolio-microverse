@@ -589,6 +589,7 @@ html {
     line-height: 20px;
     color: #fff;
     padding: 10px 12px;
+    transition: all 1s ease-out;
   }
 
   .far.fa-envelope {
