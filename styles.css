@@ -532,13 +532,13 @@ html {
   }
 }
 
-/* .navDesktop ul li:hover,
+.navDesktop ul li:hover,
 .logo a:hover,
 .social-icon i:hover,
 .social-icon2 i:hover {
   color: #ff6b00;
   transition: all 0.8s ease-out;
-} */
+} 
 
 .btn:hover {
   background-color: #fff5e1;
