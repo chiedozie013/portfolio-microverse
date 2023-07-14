@@ -532,12 +532,13 @@ html {
   }
 }
 
-.navDesktop ul li:hover,
+/* .navDesktop ul li:hover,
 .logo a:hover,
 .social-icon i:hover,
 .social-icon2 i:hover {
   color: #ff6b00;
-}
+  transition: all 0.8s ease-out;
+} */
 
 .btn:hover {
   background-color: #fff5e1;
@@ -580,7 +581,9 @@ html {
     display: flex;
     gap: 8px;
   }
-
+  .navDesktop ul a {
+    text-decoration: none;
+  }
   .navDesktop ul li {
     list-style: none;
     font-family: "inter", serif;
@@ -589,7 +592,6 @@ html {
     line-height: 20px;
     color: #fff;
     padding: 10px 12px;
-    transition: all 1s ease-out;
   }
 
   .far.fa-envelope {
