@@ -30,22 +30,19 @@
 
 ### Tech Stack <a name="Front end"></a>
 
-This is a mobile browser website.
+- [Live Demo Link](https://chiedozie013.github.io/portfolio-microverse/)
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-  </ul>
-</details>
+This is a mobile and desktop portfolio website.
 
 ### Key Features <a name="key-features"></a>
 
 - **[It has a header for navigation]**
-- **[it has th eheadline section with my name, short discription and links to my online accounts]**
+- **[it has the headline section with my name, short discription and links to my online accounts]**
+- **[it has a work section that displays my recent works]**
+- **[it has a skills section that displays the various skills and languages i have aquired in the course of my learning programmming]**
+- **[This portfolio website is desktop responsive and also built with mobile first approach]**
+- **[This portfolio website has a form inout fields validation for contacting me]**
+- **[Data are stored locally usinh freespree]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +67,7 @@ Clone this repository to your desired folder:
 
 ### Usage
 
-To run this project use the live server extention in your editor
+To run this project clone this projects url into your text editor and run the live server extention
 
 ### Install
 
