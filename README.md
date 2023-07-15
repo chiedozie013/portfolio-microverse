@@ -24,19 +24,11 @@
 
 # 📖 [Chiedozie's Portfolio Project] <a name="about-project"></a>
 
-**[Chiedozie's Portfolio Project]** is my Portfolio Website for Microverse Project. It contains my work as a developer both personal and collaborative and built to be responsive on every device.
+**[Chiedozie's Portfolio Project]** is my Portfolio Website for Microverse Project. It contains my work as a developer both personal and collaborative and built to be responsive on every device and mobile first approach.
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 
 ### Tech Stack <a name="Front end"></a>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://chiedozie013.github.io/portfolio-microverse/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-This is a mobile and desktop portfolio website.
 
 ### Key Features <a name="key-features"></a>
 
@@ -50,17 +42,23 @@ This is a mobile and desktop portfolio website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://chiedozie013.github.io/portfolio-microverse/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+## Prerequisites
 
 In order to run this project you need:
 
 - A browser that supports html5 and css3
 
-### Setup
+## Setup
 
 Clone this repository to your desired folder:
 
@@ -69,17 +67,17 @@ Clone this repository to your desired folder:
   git clone https://github.com/chiedozie013/portfolio-microverse.git
 ```
 
-### Usage
+## Usage
 
 To run this project clone this projects url into your text editor and run the live server extention
 
-### Install
+## Install
 
 Install this project with:
 
 - Clone the code into your machine and run test in an editor of your choice(E.g VScode).
 
-## 👥 Authors <a name="authors"></a>
+# 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
 
@@ -89,14 +87,14 @@ Install this project with:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+# 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Contact form]**
 - [ ] **[Desktop version of the website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
+# 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -104,19 +102,19 @@ Feel free to check the [issues page](https://github.com/chiedozie013/portfolio-m
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+# ⭐️ Show your support <a name="support"></a>
 
 If you like this project or would love to tell me ways to improve it, contact me on LinkedIn or Twitter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+# 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse community for this opportunity to learn new things.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License <a name="license"></a>
+# 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/chiedozie013/portfolio-microverse/blob/main/LICENSE) licensed.
 
