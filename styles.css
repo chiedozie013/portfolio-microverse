@@ -538,7 +538,7 @@ html {
 .social-icon2 i:hover {
   color: #ff6b00;
   transition: all 0.8s ease-out;
-} 
+}
 
 .btn:hover {
   background-color: #fff5e1;
@@ -581,9 +581,11 @@ html {
     display: flex;
     gap: 8px;
   }
+
   .navDesktop ul a {
     text-decoration: none;
   }
+
   .navDesktop ul li {
     list-style: none;
     font-family: "inter", serif;
