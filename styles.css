@@ -754,6 +754,7 @@ html {
 
   .position:hover > .hide-card {
     display: none;
+    transition: all 0.8s ease-out;
   }
 
   .display-button {
@@ -762,6 +763,7 @@ html {
 
   .position:hover > .display-button {
     display: block;
+    transition: all 0.8s ease-out;
   }
 
   .about-top::before {
