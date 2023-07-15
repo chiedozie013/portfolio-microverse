@@ -44,7 +44,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://chiedozie013.github.io/portfolio-microverse/)
+- [https://chiedozie013.github.io/](https://chiedozie013.github.io/portfolio-microverse/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
