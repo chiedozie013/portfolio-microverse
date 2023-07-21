@@ -48,6 +48,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Walkthrough Using Loom
+
+- [Walktrough Video](https://www.loom.com/share/2089dc55382a4695a2da324a881ee209?sid=c3e95f43-339f-4598-8ec0-d0ec5031dcec)
+
 # 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
