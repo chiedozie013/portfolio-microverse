@@ -50,6 +50,20 @@ html {
     transform: scale(1.5);
     transition: all 0.8s ease-out;
   }
+  /* .hamburger {
+    position: fixed;
+    cursor: pointer;
+  } */
+  .show-navDesktop {
+    display: block;
+    list-style: none;
+    font-family: "inter", serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 12px;
+  }
   .info-section {
     display: flex;
     flex-direction: column;
