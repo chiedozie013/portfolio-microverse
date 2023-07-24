@@ -46,7 +46,10 @@ html {
   .fas.fa-bars {
     color: #fff;
   }
-
+  .hamburger:hover {
+    transform: scale(1.5);
+    transition: all 0.8s ease-out;
+  }
   .info-section {
     display: flex;
     flex-direction: column;
@@ -535,7 +538,8 @@ html {
 .navDesktop ul li:hover,
 .logo a:hover,
 .social-icon i:hover,
-.social-icon2 i:hover {
+.social-icon2 i:hover,
+.fas.fa-bars:hover {
   color: #ff6b00;
   transition: all 0.8s ease-out;
 }
