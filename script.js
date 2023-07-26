@@ -15,8 +15,6 @@ function closeButton() {
 
 closeBtn.addEventListener('click', closeButton);
 
-menuLinks.forEach((link) =>
-  link.addEventListener('click', () => {
-    showHamburger.classList.remove('show-showHamburger');
-  })
-);
+menuLinks.forEach((link) => link.addEventListener('click', () => {
+  showHamburger.classList.remove('show-showHamburger');
+}));
