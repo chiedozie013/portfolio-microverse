@@ -537,11 +537,11 @@ html {
   }
 
   .input:invalid {
-    border: 1px dashed #f50606;
+    border: 2px dashed #f50606;
   }
 
   .input:valid {
-    border: 1px solid #06db1f;
+    border: 2px solid #06db1f;
   }
 
   #message {
@@ -784,6 +784,12 @@ html {
     width: 369px;
     border: 2px solid #091e42;
     position: relative;
+  }
+
+  .workCard1:hover,
+  .workCard2:hover,
+  .workCard3:hover {
+    background-image: url(./images/ProjectHoverImg.png);
   }
 
   .position button {
