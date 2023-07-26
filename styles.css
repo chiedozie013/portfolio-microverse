@@ -57,7 +57,7 @@ html {
     display: none;
   }
 
-  .showHamburger ul {
+  /* .showHamburger ul {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -65,7 +65,7 @@ html {
     background-color: #3c3a39;
     display: block;
     padding: 0 24px;
-  }
+  } */
 
   .showHamburger ul a {
     text-decoration: none;
@@ -86,8 +86,6 @@ html {
 
   .fas.fa-bars {
     color: #fff;
-
-    /* position: fixed; */
   }
 
   .hamburger:hover {
