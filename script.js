@@ -207,7 +207,7 @@ function getModal() {
           <div class="heading-flex">
               <h3>${projectArr[index].nameCard} </h3>
               <a href="#">
-                <i class="fas fa-plus" onclick=closeModal()></i>
+                <i class="fas fa-times" onclick=closeModal()></i>
               </a>
               </div>
            <ul class="heading-modal-ul">
