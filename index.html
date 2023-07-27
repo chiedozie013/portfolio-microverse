@@ -145,14 +145,14 @@
             id="name"
             placeholder="Full name"
             maxlength="30"
-            class="input"
+            class="input name-input"
             required
           />
           <input
             type="email"
             id="email"
             placeholder="Email address"
-            class="input"
+            class="input email-input"
             required
           />
           <textarea
@@ -160,9 +160,11 @@
             id="message"
             placeholder="Write me something"
             maxlength="500"
+            class="text-input"
             required
           ></textarea>
-          <button href="#" class="btn">Get in touch</button>
+          <button href="#" class="btn" type="submit">Get in touch</button>
+          <div class="error"></div>
         </form>
       </section>
       <footer>
