@@ -85,7 +85,6 @@ body {
   display: flex;
   gap: 32px;
   margin-top: 1rem;
-  padding-bottom: 10px;
 }
 
 .modal-button {
