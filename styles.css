@@ -526,6 +526,7 @@ html {
     color: #172b4d;
     margin-top: 100px;
   }
+
   .input {
     padding: 0 24px;
     font-family: "inter", serif;
@@ -535,6 +536,7 @@ html {
     border: transparent;
     outline: none;
   }
+
   .input::placeholder {
     color: #979493;
   }
