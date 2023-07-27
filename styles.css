@@ -526,14 +526,17 @@ html {
     color: #172b4d;
     margin-top: 100px;
   }
-
-  .input::placeholder {
+  .input {
+    padding: 0 24px;
     font-family: "inter", serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    border: transparent;
+    outline: none;
+  }
+  .input::placeholder {
     color: #979493;
-    padding-left: 12px;
   }
 
   .input:invalid {
@@ -549,16 +552,6 @@ html {
     height: 114px;
     background-color: #fbf8f7;
     border: 1px solid #dbd8d7;
-  }
-
-  #message::placeholder {
-    font-family: "inter", serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 15px;
-    line-height: 24px;
-    color: #3c3a39;
-    padding-left: 12px;
   }
 
   .contactForm button {
