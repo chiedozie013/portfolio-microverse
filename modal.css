@@ -174,9 +174,9 @@ body {
     flex-direction: column;
   }
 
-  .modal-details-paragraph {
+  /* .modal-details-paragraph {
     width: 100%;
-  }
+  } */
 }
 
 /* Form validation */

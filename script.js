@@ -3,8 +3,8 @@ const showHamburger = document.querySelector(".showHamburger");
 const menuLinks = document.querySelectorAll(".menu-links");
 const closeBtn = document.querySelector(".close-cross");
 // Card Function
-const allWorks = document.querySelector(".works-main");
-const firstCard = document.querySelector(".workDetails");
+// const allWorks = document.querySelector(".works-main");
+// const firstCard = document.querySelector(".workDetails");
 // Pop up modal
 const modalSection = document.querySelector(".modal-section");
 
