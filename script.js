@@ -264,13 +264,13 @@ function errStatus(e) {
     error.textContent = "Please fill in all required fields";
     error.className = "error";
   } else if (nameInput.value === "") {
-    error.textContent = "Enter a valid name";
+    error.textContent = "Oppsss.. Enter a valid name";
     error.className = "error";
   } else if (emailInput.value === "") {
-    error.textContent = "Enter a valid email";
+    error.textContent = "Oppss... Enter a valid email";
     error.className = "error";
   } else if (!regex.test(emailInput.value)) {
-    error.textContent = "Email address must be in lower case";
+    error.textContent = "Oppss... Email address must be in lower case";
     error.className = "error";
   } else if (textInput.value === "") {
     error.textContent = "Please enter text";
