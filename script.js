@@ -276,7 +276,7 @@ function errStatus(e) {
     error.textContent = "Please enter text";
     error.className = "error";
   } else {
-    error.textContent = "Success";
+    error.textContent = "Thanks for contacting me...";
     error.className = "success";
     form.submit();
     nameInput.value = "";
