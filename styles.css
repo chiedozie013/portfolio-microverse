@@ -599,19 +599,22 @@ html {
   transition: all 0.8s ease-out;
 }
 
-.btn:hover {
+.btn:hover,
+.modal-button:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
   transition: all 0.5s ease-out;
 }
 
-.btn:disabled {
+.btn:disabled,
+.modal-button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
 }
 
-.btn:active {
+.btn:active,
+.modal-button:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
@@ -811,10 +814,6 @@ html {
 
   .move5 {
     padding-top: 50px;
-  }
-
-  .workCard3 > .position {
-    padding-top: 164px;
   }
 
   .position:hover > .hide-card {

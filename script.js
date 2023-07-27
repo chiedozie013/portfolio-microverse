@@ -1,36 +1,36 @@
-const btn = document.querySelector('.hamburger');
-const showHamburger = document.querySelector('.showHamburger');
-const menuLinks = document.querySelectorAll('.menu-links');
-const closeBtn = document.querySelector('.close-cross');
+const btn = document.querySelector(".hamburger");
+const showHamburger = document.querySelector(".showHamburger");
+const menuLinks = document.querySelectorAll(".menu-links");
+const closeBtn = document.querySelector(".close-cross");
 // Card Function
-const allWorks = document.querySelector('.works-main');
-const firstCard = document.querySelector('.workDetails');
+const allWorks = document.querySelector(".works-main");
+const firstCard = document.querySelector(".workDetails");
 // Pop up modal
-const modalSection = document.querySelector('.modal-section');
+const modalSection = document.querySelector(".modal-section");
 
 function openButton() {
-  showHamburger.classList.add('show-showHamburger');
+  showHamburger.classList.add("show-showHamburger");
 }
 
-btn.addEventListener('click', openButton);
+btn.addEventListener("click", openButton);
 
 function closeButton() {
-  showHamburger.classList.remove('show-showHamburger');
+  showHamburger.classList.remove("show-showHamburger");
 }
 
-closeBtn.addEventListener('click', closeButton);
+closeBtn.addEventListener("click", closeButton);
 
 menuLinks.forEach((link) =>
-  link.addEventListener('click', () => {
-    showHamburger.classList.remove('show-showHamburger');
+  link.addEventListener("click", () => {
+    showHamburger.classList.remove("show-showHamburger");
   })
 );
 
 // Pop-up window array of object
 const projectArr = [
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -38,17 +38,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -56,17 +56,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 2,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -74,17 +74,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 3,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -92,17 +92,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -110,17 +110,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 2,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -128,32 +128,32 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
   {
-    name: 'Professional Art Printing Data',
-    nameCard: 'Multi Post Stories',
+    name: "Professional Art Printing Data",
+    nameCard: "Multi Post Stories",
     number: 3,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
     descriptionCard:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: 'html',
-    technology2: 'bootstrap',
-    technology3: 'ruby',
-    technology4: 'Ruby on rails',
-    technology5: 'css',
-    button: 'see project',
-    btnCard1: 'See Live',
-    btnCard2: 'See Source',
+    technology1: "html",
+    technology2: "bootstrap",
+    technology3: "ruby",
+    technology4: "Ruby on rails",
+    technology5: "css",
+    button: "see project",
+    btnCard1: "See Live",
+    btnCard2: "See Source",
   },
 ];
 
@@ -188,36 +188,42 @@ const cardsHTML = function () {
             <li>${projectArr[index].technology3}</li>
           </ul>
         </div>
-        <button class="btn" href="#" onclick=getModal(${index})>${projectArr[index].button}</button>
+        <button class="btn display-button" href="#" onclick=getModal(${index})>${projectArr[index].button}</button>
       </div>
     </div>
     `;
   }
 };
 
-window.addEventListener('load', cardsHTML);
+window.addEventListener("load", cardsHTML);
 
 // Function for pop-up modal
 function getModal() {
-  modalSection.style.display = 'block';
+  modalSection.style.display = "block";
 
   for (let index = 0; index < projectArr.length; index++) {
     modalSection.innerHTML = `
       <div class=" overlay">
         <div class ="cover-modal">
           <div class="heading-modal">
-           <h3>${projectArr[index].nameCard}</h3>
+          <div class="heading-flex">
+              <h3>${projectArr[index].nameCard} </h3>
+              <a href="#">
+                <i class="fas fa-plus" onclick=closeModal()></i>
+              </a>
+              </div>
            <ul class="heading-modal-ul">
               <li >${projectArr[index].technology1}</li>
               <li>${projectArr[index].technology2}</li>
               <li>${projectArr[index].technology4}</li>
            </ul>
            <div class="modal-details">
+           <img src="./images/PopUp.png" class="popup-img"alt="popup-img" />
             <div class="modal-details-textBtn">
             <p class="modal-details-paragraph">${projectArr[index].descriptionCard}</p>
             <div class="modal-details-buttons">
-              <a href="#" class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard1}</span></a>
-              <a href="#" class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard2}</span></a>
+              <button href="#" class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard1}<i class="fas fa-file-export modal-btn"></i></span></button>
+              <button href="#" class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard2}<i class="fab fa-github modal-btn"></i></span></button>
             </div>
           </div>
           </div>
@@ -228,5 +234,5 @@ function getModal() {
 }
 
 const closeModal = function () {
-  modalSection.style.display = 'none';
+  modalSection.style.display = "none";
 };
