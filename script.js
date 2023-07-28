@@ -1,42 +1,40 @@
-const btn = document.querySelector(".hamburger");
-const showHamburger = document.querySelector(".showHamburger");
-const menuLinks = document.querySelectorAll(".menu-links");
-const closeBtn = document.querySelector(".close-cross");
+const btn = document.querySelector('.hamburger');
+const showHamburger = document.querySelector('.showHamburger');
+const menuLinks = document.querySelectorAll('.menu-links');
+const closeBtn = document.querySelector('.close-cross');
 // Card Function
-const allWorks = document.querySelector(".works-main");
-const firstCard = document.querySelector(".workDetails");
+const allWorks = document.querySelector('.works-main');
+const firstCard = document.querySelector('.workDetails');
 // Pop up modal
-const modalSection = document.querySelector(".modal-section");
+const modalSection = document.querySelector('.modal-section');
 // Form Validation
-const nameInput = document.querySelector(".name-input");
-const emailInput = document.querySelector(".email-input");
-const textInput = document.querySelector(".text-input");
-const form = document.querySelector(".contactForm");
-const error = document.querySelector(".error");
+const nameInput = document.querySelector('.name-input');
+const emailInput = document.querySelector('.email-input');
+const textInput = document.querySelector('.text-input');
+const form = document.querySelector('.contactForm');
+const error = document.querySelector('.error');
 
 function openButton() {
-  showHamburger.classList.add("show-showHamburger");
+  showHamburger.classList.add('show-showHamburger');
 }
 
-btn.addEventListener("click", openButton);
+btn.addEventListener('click', openButton);
 
 function closeButton() {
-  showHamburger.classList.remove("show-showHamburger");
+  showHamburger.classList.remove('show-showHamburger');
 }
 
-closeBtn.addEventListener("click", closeButton);
+closeBtn.addEventListener('click', closeButton);
 
-menuLinks.forEach((link) =>
-  link.addEventListener("click", () => {
-    showHamburger.classList.remove("show-showHamburger");
-  })
-);
+menuLinks.forEach((link) => link.addEventListener('click', () => {
+  showHamburger.classList.remove('show-showHamburger');
+}));
 
 // Pop-up window array of object
 const projectArr = [
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -44,17 +42,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -62,17 +60,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 2,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -80,17 +78,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 3,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -98,17 +96,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 1,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -116,17 +114,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 2,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -134,17 +132,17 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
   {
-    name: "Professional Art Printing Data",
-    nameCard: "Multi Post Stories",
+    name: 'Professional Art Printing Data',
+    nameCard: 'Multi Post Stories',
     number: 3,
     Description:
       "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
@@ -152,14 +150,14 @@ const projectArr = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
-    technology1: "html",
-    technology2: "bootstrap",
-    technology3: "ruby",
-    technology4: "Ruby on rails",
-    technology5: "css",
-    button: "see project",
-    btnCard1: "See Live",
-    btnCard2: "See Source",
+    technology1: 'html',
+    technology2: 'bootstrap',
+    technology3: 'ruby',
+    technology4: 'Ruby on rails',
+    technology5: 'css',
+    button: 'see project',
+    btnCard1: 'See Live',
+    btnCard2: 'See Source',
   },
 ];
 
@@ -201,11 +199,11 @@ const cardsHTML = function () {
   }
 };
 
-window.addEventListener("load", cardsHTML);
+window.addEventListener('load', cardsHTML);
 
 // Function for pop-up modal
 function getModal() {
-  modalSection.style.display = "block";
+  modalSection.style.display = 'block';
 
   for (let index = 0; index < projectArr.length; index += 1) {
     modalSection.innerHTML = `
@@ -240,11 +238,11 @@ function getModal() {
 }
 
 const closeModal = function () {
-  modalSection.style.display = "none";
+  modalSection.style.display = 'none';
 };
 
-window.addEventListener("load", getModal);
-window.addEventListener("load", closeModal);
+window.addEventListener('load', getModal);
+window.addEventListener('load', closeModal);
 
 // Form validation
 const formFields = Array.from(form.elements);
@@ -252,63 +250,63 @@ const formFields = Array.from(form.elements);
 function errStatus(e) {
   e.preventDefault();
 
-  error.style.visibility = "visible";
+  error.style.visibility = 'visible';
 
   const regex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
   if (
-    nameInput.value === "" &&
-    emailInput.value === "" &&
-    textInput.value === ""
+    nameInput.value === ''
+    && emailInput.value === ''
+    && textInput.value === ''
   ) {
-    error.textContent = "Please fill in all required fields";
-    error.className = "error";
-  } else if (nameInput.value === "") {
-    error.textContent = "Oppsss.. Enter a valid name";
-    error.className = "error";
-  } else if (emailInput.value === "") {
-    error.textContent = "Oppss... Enter a valid email";
-    error.className = "error";
+    error.textContent = 'Please fill in all required fields';
+    error.className = 'error';
+  } else if (nameInput.value === '') {
+    error.textContent = 'Oppsss.. Enter a valid name';
+    error.className = 'error';
+  } else if (emailInput.value === '') {
+    error.textContent = 'Oppss... Enter a valid email';
+    error.className = 'error';
   } else if (!regex.test(emailInput.value)) {
-    error.textContent = "Oppss... Email address must be in lower case";
-    error.className = "error";
-  } else if (textInput.value === "") {
-    error.textContent = "Please enter text";
-    error.className = "error";
+    error.textContent = 'Oppss... Email address must be in lower case';
+    error.className = 'error';
+  } else if (textInput.value === '') {
+    error.textContent = 'Please enter text';
+    error.className = 'error';
   } else {
-    error.textContent = "Thanks for contacting me...";
-    error.className = "success";
+    error.textContent = 'Thanks for contacting me...';
+    error.className = 'success';
     form.submit();
-    nameInput.value = "";
-    emailInput.value = "";
-    textInput.value = "";
+    nameInput.value = '';
+    emailInput.value = '';
+    textInput.value = '';
   }
 }
 
 function removeErrMsg() {
-  error.style.visibility = "hidden";
+  error.style.visibility = 'hidden';
 }
 
-formFields.forEach((input) => input.addEventListener("focus", removeErrMsg));
+formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
 
-form.addEventListener("submit", errStatus);
+form.addEventListener('submit', errStatus);
 
 // Local storage of data in the browser
-const ObjStorage = { name: "", email: "", text: "" };
+const ObjStorage = { name: '', email: '', text: '' };
 
 const storeInputs = function () {
   ObjStorage.name = nameInput.value;
   ObjStorage.email = emailInput.value;
   ObjStorage.text = textInput.value;
-  localStorage.setItem("data", JSON.stringify(ObjStorage));
+  localStorage.setItem('data', JSON.stringify(ObjStorage));
 };
 
 formFields.forEach((input) => {
-  input.addEventListener("input", storeInputs);
+  input.addEventListener('input', storeInputs);
 });
 
 const retrieveInput = function () {
-  const data = JSON.parse(localStorage.getItem("data"));
+  const data = JSON.parse(localStorage.getItem('data'));
   nameInput.value = data.name;
   emailInput.value = data.email;
   textInput.value = data.text;
