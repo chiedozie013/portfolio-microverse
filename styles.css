@@ -527,21 +527,18 @@ html {
     margin-top: 100px;
   }
 
-  .input::placeholder {
+  .input {
+    padding: 0 24px;
     font-family: "inter", serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    border: transparent;
+    outline: none;
+  }
+
+  .input::placeholder {
     color: #979493;
-    padding-left: 12px;
-  }
-
-  .input:invalid {
-    border: 2px dashed #f50606;
-  }
-
-  .input:valid {
-    border: 2px solid #06db1f;
   }
 
   #message {
@@ -549,16 +546,6 @@ html {
     height: 114px;
     background-color: #fbf8f7;
     border: 1px solid #dbd8d7;
-  }
-
-  #message::placeholder {
-    font-family: "inter", serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 15px;
-    line-height: 24px;
-    color: #3c3a39;
-    padding-left: 12px;
   }
 
   .contactForm button {
@@ -909,8 +896,13 @@ html {
   }
 }
 
-@media screen and (min-width: 1000px) {
-  /* .works-main {
-    margin: 0 5%;
-  } */
+/* Form validation */
+.error {
+  color: #e11d48;
+  font-size: 21px;
+}
+
+.success {
+  color: #84cc16;
+  font-size: 21px;
 }

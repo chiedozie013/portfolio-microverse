@@ -7,6 +7,12 @@ const allWorks = document.querySelector('.works-main');
 const firstCard = document.querySelector('.workDetails');
 // Pop up modal
 const modalSection = document.querySelector('.modal-section');
+// Form Validation
+const nameInput = document.querySelector('.name-input');
+const emailInput = document.querySelector('.email-input');
+const textInput = document.querySelector('.text-input');
+const form = document.querySelector('.contactForm');
+const error = document.querySelector('.error');
 
 function openButton() {
   showHamburger.classList.add('show-showHamburger');
@@ -237,3 +243,50 @@ const closeModal = function () {
 
 window.addEventListener('load', getModal);
 window.addEventListener('load', closeModal);
+
+// Form validation
+const formFields = Array.from(form.elements);
+
+function errStatus(e) {
+  e.preventDefault();
+
+  error.style.visibility = 'visible';
+
+  const regex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+
+  if (
+    nameInput.value === ''
+    && emailInput.value === ''
+    && textInput.value === ''
+  ) {
+    error.textContent = 'Please fill in all required fields';
+    error.className = 'error';
+  } else if (nameInput.value === '') {
+    error.textContent = 'Oppsss.. Enter a valid name';
+    error.className = 'error';
+  } else if (emailInput.value === '') {
+    error.textContent = 'Oppss... Enter a valid email';
+    error.className = 'error';
+  } else if (!regex.test(emailInput.value)) {
+    error.textContent = 'Oppss... Email address must be in lower case';
+    error.className = 'error';
+  } else if (textInput.value === '') {
+    error.textContent = 'Please enter text';
+    error.className = 'error';
+  } else {
+    error.textContent = 'Thanks for contacting me...';
+    error.className = 'success';
+    form.submit();
+    nameInput.value = '';
+    emailInput.value = '';
+    textInput.value = '';
+  }
+}
+
+function removeErrMsg() {
+  error.style.visibility = 'hidden';
+}
+
+formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
+
+form.addEventListener('submit', errStatus);
