@@ -16,9 +16,9 @@
   --transition: all 0.5s ease-in;
 }
 
-body {
+/* body {
   position: relative;
-}
+} */
 
 .cover-modal {
   position: absolute;
