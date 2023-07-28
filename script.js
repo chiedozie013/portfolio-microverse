@@ -289,4 +289,4 @@ function removeErrMsg() {
 
 formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
 
-form.addEventListener('submit', errStatus);
+// form.addEventListener('submit', errStatus);
