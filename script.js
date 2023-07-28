@@ -289,6 +289,6 @@ function removeErrMsg() {
   error.style.visibility = 'hidden';
 }
 
-formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
+// formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
 
 form.addEventListener('submit', errStatus);
