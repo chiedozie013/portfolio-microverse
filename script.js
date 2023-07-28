@@ -26,9 +26,11 @@ function closeButton() {
 
 closeBtn.addEventListener('click', closeButton);
 
-menuLinks.forEach((link) => link.addEventListener('click', () => {
-  showHamburger.classList.remove('show-showHamburger');
-}));
+menuLinks.forEach((link) =>
+  link.addEventListener('click', () => {
+    showHamburger.classList.remove('show-showHamburger');
+  })
+);
 
 // Pop-up window array of object
 const projectArr = [
@@ -255,9 +257,9 @@ function errStatus(e) {
   const regex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
   if (
-    nameInput.value === ''
-    && emailInput.value === ''
-    && textInput.value === ''
+    nameInput.value === '' &&
+    emailInput.value === '' &&
+    textInput.value === ''
   ) {
     error.textContent = 'Please fill in all required fields';
     error.className = 'error';
@@ -289,4 +291,4 @@ function removeErrMsg() {
 
 formFields.forEach((input) => input.addEventListener('focus', removeErrMsg));
 
-// form.addEventListener('submit', errStatus);
+form.addEventListener('submit', errStatus);
