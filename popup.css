@@ -16,9 +16,9 @@
   --transition: all 0.5s ease-in;
 }
 
-/* body {
+body {
   position: relative;
-} */
+}
 
 .cover-modal {
   position: absolute;
@@ -37,7 +37,7 @@
 }
 
 .heading-modal h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 44px;
@@ -93,7 +93,7 @@
   padding: 0.7rem 0.7rem;
   border-radius: 3px;
   transition: var(--transition);
-  font-family: "inter", serif;
+  font-family: 'inter', serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -129,7 +129,7 @@
 
 @media screen and (min-width: 768px) {
   .heading-modal h3 {
-    font-family: "Crete Round", sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -164,7 +164,7 @@
   }
 
   .heading-modal-ul li {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
