@@ -52,15 +52,16 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/Awesome-Books/",
+    image: "TechTitans.png",
   },
   {
     name: "TechTitans Global Summit Project",
     nameCard: "Multi Post Stories",
     number: 1,
     Description:
-      "This project is an online website for a conference that is to happen in Portharcourt, Nigeria towards the first quarter of 2024 for individuals from various sectors of the technology",
+      "This project is an online website for a conference that is to happen in Portharcourt, Nigeria towards the first quarter of 2024 for individuals from various sectors of the technology industry all over the world",
     descriptionCard:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "This project is an online website for a conference that is to happen in Portharcourt, Nigeria towards the first quarter of 2024 for individuals from various sectors of the technology industry all over the world. This project contains all information about the up coming submit. It is built with HTML, CSS and JS.",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
     technology1: "html",
@@ -70,16 +71,18 @@ const projectArr = [
     button: "see project",
     btnCard1: "See Live",
     btnCard2: "See Source",
-    url: "https://chiedozie013.github.io/TechTitans-Global-Summit-2024.github.oi/",
+    url: "https://chiedozie013.github.io/TechTitans-Global-Summit-2024/",
+    source: "https://github.com/chiedozie013/TechTitans-Global-Summit-2024",
+    image: "TechTitans.png",
   },
   {
-    name: "Awesome Books: Add and Remove Books",
+    name: "Awesome Books: Add - Remove Books",
     nameCard: "Multi Post Stories",
     number: 2,
     Description:
       "In this project, I built a basic website that allows users to add/remove books from a list. I achieved that by using JavaScript objects and arrays. I dynamically modified the DOM and add basic events.",
     descriptionCard:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "In this project, I built a basic website that allows users to add/remove books from a list. I achieved that by using JavaScript objects and arrays. I dynamically modified the DOM and add basic events. This project was built with simple HTML, CSS and Jacascipty",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
     technology1: "html",
@@ -90,6 +93,8 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/Awesome-Books/",
+    source: "https://github.com/chiedozie013/Awesome-Books",
+    image: "Books.png",
   },
   {
     name: "To Do List: Daily Activity Log",
@@ -98,7 +103,7 @@ const projectArr = [
     Description:
       "In this project, I built a simple HTML list of To Do tasks. This simple web page was built using webpack and served by a webpack dev server. This list can be added and removed after completion of item",
     descriptionCard:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "In this project, I built a simple HTML list of To Do tasks. This simple web page was built using webpack and served by a webpack dev server.This list can be added and removed after completion of item. This project was built with simple HTML, CSS, Javascript. Click links below",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
     technology1: "html",
@@ -109,6 +114,8 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/To-do-list/dist",
+    source: "https://github.com/chiedozie013/To-do-list",
+    image: "To-do-list.png",
   },
   {
     name: "Professional Art Printing Data",
@@ -128,6 +135,7 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/Awesome-Books/",
+    image: "TechTitans.png",
   },
   {
     name: "Professional Art Printing Data",
@@ -147,6 +155,7 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/Awesome-Books/",
+    image: "TechTitans.png",
   },
   {
     name: "Last Object",
@@ -167,6 +176,7 @@ const projectArr = [
     btnCard1: "See Live",
     btnCard2: "See Source",
     url: "https://chiedozie013.github.io/TechTitans-Global-Summit-2024.github.oi/",
+    image: "TechTitans.png",
   },
 ];
 
@@ -183,7 +193,6 @@ const cardsHTML = function () {
       <li>${projectArr[index].technology2}</li>
       <li>${projectArr[index].technology3}</li>
     </ul>
-    <button class="btn" href="#/" onClick=getModal(${index})>${projectArr[index].button}</button>
     `;
   }
 
@@ -201,7 +210,7 @@ const cardsHTML = function () {
             <li>${projectArr[index].technology3}</li>
           </ul>
         </div>
-        <button class="btn display-button" href="#" onClick=getModal()>${projectArr[index].button}</button>
+        <button class="btn display-button" href="#" onClick=getModal(${index})>${projectArr[index].button}</button>
       </div>
     </div>
     `;
@@ -211,10 +220,12 @@ const cardsHTML = function () {
 window.addEventListener("load", cardsHTML);
 
 // Function for pop-up modal
-const getModal = function () {
+const getModal = function (index) {
   modalSection.style.display = "block";
-
-  for (let index = 0; index < projectArr.length; index += 1) {
+  if (index < 0 || index >= projectArr.length) {
+    return null; // Return null if the index is out of bounds
+  } else {
+    // for (let index = 1; index < projectArr.length; index += 1) {
     modalSection.innerHTML = `
       <div class=" overlay">
         <div class ="cover-modal">
@@ -231,12 +242,12 @@ const getModal = function () {
               <li>${projectArr[index].technology4}</li>
            </ul>
            <div class="modal-details">
-           <img src="./images/PopUp.png" class="popup-img"alt="popup-img" />
+           <img src="./images/${projectArr[index].image}" class="popup-img"alt="popup-img" />
             <div class="modal-details-textBtn">
             <p class="modal-details-paragraph">${projectArr[index].descriptionCard}</p>
             <div class="modal-details-buttons">
               <a href=${projectArr[index].url} class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard1}<i class="fas fa-file-export modal-btn"></i></span></a>
-              <button href="#" class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard2}<i class="fab fa-github modal-btn"></i></span></button>
+              <a href=${projectArr[index].source} class="modal-button" onclick=closeModal()><span>${projectArr[index].btnCard2}<i class="fab fa-github modal-btn"></i></span></a>
             </div>
           </div>
           </div>
