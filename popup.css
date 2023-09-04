@@ -37,7 +37,7 @@ body {
 }
 
 .heading-modal h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 44px;
@@ -64,6 +64,10 @@ body {
   padding: 0.5rem 0.5rem;
   border: 1px solid var(--cool-grey);
   color: var(--black-olive);
+}
+.popup-img {
+  width: 100%;
+  height: 400px;
 }
 
 .modal-details {
@@ -93,12 +97,14 @@ body {
   padding: 0.7rem 0.7rem;
   border-radius: 3px;
   transition: var(--transition);
-  font-family: 'inter', serif;
+  font-family: "inter", serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   align-items: center;
   border: none;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .modal-btn {
@@ -129,7 +135,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .heading-modal h3 {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
@@ -164,7 +170,7 @@ body {
   }
 
   .heading-modal-ul li {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -176,5 +182,8 @@ body {
 
   .modal-details-buttons {
     gap: 80px;
+  }
+  .modal-button {
+    margin-bottom: 0;
   }
 }
