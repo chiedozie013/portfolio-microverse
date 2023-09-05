@@ -565,7 +565,7 @@ html {
 .social-icon2 i:hover,
 .fas.fa-bars:hover {
   color: #ff6b00;
-  transition: all 0.8s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .btn:hover,
@@ -573,7 +573,7 @@ html {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .btn:disabled,
