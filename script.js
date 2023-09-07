@@ -118,13 +118,13 @@ const projectArr = [
     image: "To-do-list.png",
   },
   {
-    name: "Leaderboard: Send and Recieve score",
+    name: "Leaderboard: Consuming API",
     nameCard: "Multi Post Stories",
     number: 4,
     Description:
       "This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules to consume the Leaderboard API using JavaScript async and await to send and receive data.",
     descriptionCard:
-      "This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules to consume the Leaderboard API using JavaScript async and await to send and receive data and added some styles, first generating my own endpoint of the API using gitflow approach",
+      "This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules to consume the Leaderboard API using JavaScript async and await to send and receive data from my generated endpoint of the API with the scores arranged in decending order and added some styles. The project was developed using gitflow approach",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
     technology1: "html",
