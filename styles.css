@@ -774,7 +774,10 @@ html {
     background-image: url(./images/To-do-list.png);
     background-size: contain;
   }
-  .workCard4:hover,
+  .workCard4:hover {
+    background-image: url(./images/leaderboard.png);
+    background-size: contain;
+  }
   .workCard5:hover,
   .workCard6:hover {
     background-image: url(./images/ProjectHoverImg.png);

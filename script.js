@@ -118,13 +118,13 @@ const projectArr = [
     image: "To-do-list.png",
   },
   {
-    name: "Professional Art Printing Data",
+    name: "Leaderboard: Send and Recieve score",
     nameCard: "Multi Post Stories",
     number: 4,
     Description:
-      "A daily selection of privately personalized reads; no account or sign-ups required,has been the industry's standard",
+      "This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules to consume the Leaderboard API using JavaScript async and await to send and receive data.",
     descriptionCard:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+      "This is a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules to consume the Leaderboard API using JavaScript async and await to send and receive data and added some styles, first generating my own endpoint of the API using gitflow approach",
     descriptionGym:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaL",
     technology1: "html",
@@ -134,8 +134,9 @@ const projectArr = [
     button: "see project",
     btnCard1: "See Live",
     btnCard2: "See Source",
-    url: "https://chiedozie013.github.io/Awesome-Books/",
-    image: "TechTitans.png",
+    url: "https://chiedozie013.github.io/Leaderboard/dist",
+    source: "https://github.com/chiedozie013/Leaderboard/",
+    image: "leaderboard.png",
   },
   {
     name: "Professional Art Printing Data",
